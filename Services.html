@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Services</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url(./images/dp2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+             .container1{
+                position: relative;
+                display: flex;
+                width: 100%;
+                background-color:white;
+            }
+            .container1 .menu{
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+            }
+            .container1 .menu .logo{
+                position: relative;
+                display: flex;
+                align-items:center;
+                justify-content: center;
+            }
+            .menu .logo .image{
+                flex-basis: 25%;
+            }
+            .menu .image img{
+                max-width: 100%;
+            }
+            .logo .text{
+                font-size:x-large;
+                font-family: Georgia, 'Times New Roman', Times, serif;  
+                color: #0197f6; 
+            }
+            .container1 .menu .nav-bar{
+                margin-left: 100px;
+                display: flex;
+                gap: 200px;
+            }
+            .container1 .menu .nav-bar a{
+                margin-left: 10px;
+                text-decoration: none;
+                color: black;
+            }
+            .container1 .menu .nav-bar .navbar a{
+                padding-right: 25px;
+                font-weight: bold;
+                font-family:Arial, Helvetica, sans-serif ;
+            }
+             #btn .button{
+                background-color: #0197f6;
+                border-radius:16px; 
+                
+            }
+            #btn a{
+                font-size: 20xl; 
+                font-family: 'Times New Roman', Times, serif;
+                padding: 10px 15px; 
+            }
+            .container2{
+                position: relative;
+                width: 100%;
+                height: 300px;
+                margin-top:70px;
+            }
+            .container3{
+                position: relative;
+                width: 100%;
+                height: 300px;
+                margin-top: 0px;
+                padding: 0;
+               
+            }
+             .circle{
+                position: absolute;
+                display: flex;
+                width: 100%;
+                height:300px;
+                background-position: center;
+                background-attachment: fixed;
+                transition: 2s;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+        
+           
+            .container2 .circle.circle1{
+                background-image: url('./images/consultation.jpg');
+                clip-path: circle(100px at 25% center );
+            }
+            .container2 .circle.circle2{
+                background-image: url('./images/scaling.jpg');
+                clip-path: circle(100px at  center );
+               
+               
+            }
+            .container2 .circle.circle3{
+                background-image: url('./images/filling.jpg');
+                clip-path: circle(100px at 75% center );
+            }
+            .container3 .circle.circle4{
+                background-image: url('./images/extraction1.jpg');
+                clip-path: circle(100px at 25% center );
+            }
+            .container3 .circle.circle5{
+                background-image: url('./images/devitalisation2.jpg');
+                clip-path: circle(100px at center );
+            }
+            .container3 .circle.circle6{
+                background-image: url('./images/prosthesis2.jpg');
+                clip-path: circle(100px at 75% center );
+            }
+            .container2 .circle:hover{
+                z-index: 1;
+                clip-path: circle(2000px at center);
+                
+            }
+            .container3 .circle:hover{
+                z-index: 1;
+                clip-path: circle(2000px at center);
+            }
+            
+            
+
+        </style>
+           <nav class="container1">
+            <div class="menu">
+                <div class="logo">
+                <div class="image">
+                    <a href="file:///C:/Users/LENOVO/Desktop/html%20practice/MyWebsite/Home.html"><img src="images/tooth2.png" alt="" /></a>
+                    </div>
+                    <div class="text">
+                    <p>OHS</p>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <div class="navbar">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Doctors</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div id="btn">
+                <a href="#" class="button" id="btn">Book Online</a>
+            </div>
+            </div>
+            </div>
+                </nav>
+
+                <div class="container2">
+                   
+                  <div class="circle circle1">
+                    <div class="content">
+                        <h2>Consultation
+                           </h2>
+                    </div>
+                  </div>  
+                  <div class="circle circle2">
+                    <div class="content">
+                        <h2>Scaling
+                            </h2>
+                    </div>
+                  </div>  
+                  <div class="circle circle3">
+                    <div class="content">
+                        <h2>filling
+                            </h2>
+                   
+                  </div>
+                </div>
+            </div>
+                <div class="container3">
+                  <div class="circle circle4">
+                    <div class="content">
+                        <h2>Extraction
+                           </h2>
+                    </div>
+                  </div>  
+                  <div class="circle circle5">
+                    <div class="content">
+                        <h2>Devitalisation
+                           </h2>
+                    </div>
+                  </div>  
+                  <div class="circle circle6">
+                    <div class="content">
+                        <h2>Prosthesis 
+                            </h2>
+                 
+                  </div>  
+                </div> 
+            
+        </div>
+    </body>
+</html>

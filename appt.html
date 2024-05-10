@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Appointment</title>
+        
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url('./images/background1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .container{
+                position: relative;
+                margin-top: 30px;
+                margin-left:100px;
+                width: 40%;
+                height: 550px;
+            }
+            .MyForm{
+                margin-left: 20px;
+                padding:20px
+            }
+            .MyForm h2{
+                text-align: center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                padding-bottom: 5px;
+            }
+            .form{
+                padding-bottom: 15px;
+            }
+            .form label{
+                display:block;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight:bolder ;
+            }
+            .form textarea{
+                padding: 12px 0 12px 4px;
+                margin-top: 4px;
+                border:2px solid rgba(212, 215, 218, 0.836);
+                width: 98%;
+            } 
+            
+            .form input{
+                padding: 12px 0 12px 4px;
+                margin-top: 4px;
+                border:2px solid rgba(212, 215, 218, 0.836);
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .form #message{
+                padding-bottom: 50px;
+            }
+            .MyForm .button{
+                margin-top: 10px;
+                padding:7px 16px;
+                text-align: center; 
+                font-weight: bold;
+                font-size:small;
+                border-color: rgba(212, 215, 218, 0.836);
+            }
+            .form textarea{
+                border-radius: 10px;
+            }
+            .form input[type="text"]{
+                border-radius: 10px;
+            }
+            .form textarea:hover{
+                border:2px solid blue;
+                opacity: 0.6;
+            }
+            .MyForm input:hover{
+                border:2px solid blue;
+            }
+            .form input[type="text"]:hover{
+                opacity: 0.6;
+            }
+            .MyForm .button:hover{
+                opacity: 0.8;
+            } 
+            .MyForm .button:active{
+                background-color: rgb(129, 182, 228);
+            } 
+            .form input[type=text]:focus{
+                background-color: white;
+                border: 2px solid blue;
+            }
+
+        </style>
+
+        <div class="container">
+
+            <form class="MyForm">
+                <h2>Book Now!</h2>
+                <div class="form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name...">
+                </div>
+                <div class="form">
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone" placeholder="Tel">
+                </div>
+                <div class="form">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="form">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="99" placeholder="Write something..."></textarea>
+                </div>
+                <input class="button" type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
