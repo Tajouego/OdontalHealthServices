@@ -1,0 +1,54 @@
+.block {
+  padding: 5.625rem 0 4.375rem;
+  background-position: 50% 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('../assets/image/aboutImage.jpg');
+  position: relative;
+  color: #fff;
+}
+.block:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.block .container {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 62.5rem;
+}
+.titleHolder {
+  text-align: center;
+  margin: 0 0 2.5rem;
+}
+.titleHolder h2 {
+  text-transform: uppercase;
+  margin: 0 0 0.313rem;
+}
+.titleHolder p {
+  color: #999999;
+}
+.titleHolder p:before {
+  content: "-";
+  margin: 0.313rem 0 0;
+}
+.titleHolder p:after {
+  content: "-";
+  margin: 0 0 0 0.313rem;
+}
+.quote{
+  text-align: center;
+  margin-bottom: 5.625rem;
+}
+.quote p{
+  margin-bottom: 1.875rem;
+}
+.name{
+  display: block;
+  text-transform: uppercase;
+}

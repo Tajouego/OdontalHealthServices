@@ -1,0 +1,30 @@
+.block {
+  margin: 3.75rem 0 0;
+  position: relative;
+
+}
+.block:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+} 
+.block .container{
+  color: #fff;
+  position: relative;
+}
+.heroImg {
+  height: 31.25rem;
+  object-fit: cover;
+}
+.heroCaption {
+  left: 25%;
+  right: 25%;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  bottom: 50%;
+}

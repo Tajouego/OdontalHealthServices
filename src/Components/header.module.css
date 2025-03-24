@@ -1,0 +1,27 @@
+.NavBar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+} 
+.navLinks{
+    gap: 0.938rem;
+}
+.link{
+    border-bottom: 0.125rem solid rgb(255, 255, 255,0);
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+}
+.link:hover{
+    border-bottom: 0.125rem solid #255aaa;
+    color: #255aaa;
+}
+.navButton{
+    padding: 0.5rem 0.938rem;
+    border-radius: 25px;
+    background-color: #255aaa;
+    border: none
+}
